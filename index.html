@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./icons/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header_block">
+          <div class="header_left">
+            <h2 class="logo"><span>Web</span>Studio</h2>
+            <nav>
+              <ul class="menu_links">
+                <li class="header_link">
+                  <a href="/" class="navigation">Студія</a>
+                </li>
+                <li class="header_link">
+                  <a href="./portfolio.html" class="navigation">Портфоліо</a>
+                </li>
+                <li class="header_link">
+                  <a href="/" class="navigation">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-link">
+            <a href="mailto:" class="inf">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.5 0H1.50001C0.672854 0 0 0.672853 0 1.50001V10.5C0 11.3271 0.672854 12 1.50001 12H14.5C15.3271 12 16 11.3271 16 10.5V1.50001C16 0.672853 15.3271 0 14.5 0ZM14.5 0.999994C14.5679 0.999994 14.6325 1.01409 14.6916 1.0387L8 6.83838L1.30833 1.0387C1.36742 1.01412 1.43204 0.999994 1.49998 0.999994H14.5ZM14.5 11H1.50001C1.22414 11 0.999996 10.7759 0.999996 10.5V2.09521L7.67236 7.87792C7.76661 7.95944 7.8833 7.99999 8 7.99999C8.1167 7.99999 8.23339 7.95948 8.32764 7.87792L15 2.09521V10.5C15 10.7759 14.7759 11 14.5 11Z"
+                  fill="#757575"
+                />
+              </svg>
+              info@devstudio.com</a
+            >
+
+            <a href="tel:+380961111111" class="inf">
+              <svg
+                width="10"
+                height="16"
+                viewBox="0 0 10 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8.5 0H1.5C0.672848 0 0 0.672848 0 1.5V14.5C0 15.3272 0.672848 16 1.5 16H8.5C9.32715 16 10 15.3272 10 14.5V1.5C10 0.672848 9.32715 0 8.5 0ZM1.5 1H8.5C8.77588 1 9 1.22412 9 1.5V12H1V1.5C1 1.22412 1.22412 1 1.5 1ZM8.5 15H1.5C1.22412 15 1 14.7759 1 14.5V13H9V14.5C9 14.7759 8.77588 15 8.5 15Z"
+                  fill="#757575"
+                />
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </div>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <section class="promo">
+        <div class="overlay">
+          <div class="container">
+            <h1 class="title">
+              ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
+              ВАШОГО БІЗНЕСУ
+            </h1>
+            <button class="follow_the_link">Замовити послугу</button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <ul class="list">
+          <li
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <div class="abbout">
+              <img
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="list_icon"
+                src="./icons/antenna.svg"
+                alt="antenna"
+              />
+            </div>
+            <h5
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="h5list"
+            >
+              УВАГА ДО ДЕТАЛЕЙ
+            </h5>
+            <p
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="information"
+            >
+              Ідейні міркування, і навіть початок <br />
+              повсякденної роботи з формування <br />
+              позиції.
+            </p>
+          </li>
+          <li
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <div class="abbout">
+              <img
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="list_icon"
+                src="./icons/clock.svg"
+                alt="clock"
+              />
+            </div>
+            <h5
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="h5list"
+            >
+              ПУНКТУАЛЬНІСТЬ
+            </h5>
+            <p
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="information"
+            >
+              Завдання організації, особливо рамки <br />
+              і місце навчання кадрів тягне у себе.
+            </p>
+          </li>
+          <li
+            data-aos="zoom-in"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <div class="abbout">
+              <img
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="list_icon"
+                src="./icons/diagram.svg"
+                alt="diagram"
+              />
+            </div>
+            <h5
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="h5list"
+            >
+              ПЛАНУВАННЯ
+            </h5>
+            <p
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="information"
+            >
+              Так само консультація з широким <br />
+              активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <div class="abbout">
+              <img
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="list_icon"
+                src="./icons/astronaut.svg"
+                alt="astronaut"
+              />
+            </div>
+            <h5
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="h5list"
+            >
+              СУЧАСНІ ТЕХНОЛОГІЇ
+            </h5>
+            <p
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              class="information"
+            >
+              Значимість цих проблем настільки <br />
+              очевидна, що реалізація планових <br />
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section
+        data-aos="flip-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        class="work"
+      >
+        <h2
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          class="type-of-work"
+        >
+          Чим ми займаємося
+        </h2>
+        <div class="container">
+          <ul class="images">
+            <li>
+              <img
+                data-aos="fade-up-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="img2"
+                src="./img/img1.png"
+                alt="computer"
+              />
+            </li>
+            <li>
+              <img
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="img2"
+                src="./img/img2.png"
+                alt="telephone"
+              />
+            </li>
+            <li>
+              <img
+                data-aos="fade-up-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                class="img2"
+                src="./img/img3.png"
+                alt="tablet"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        class="team"
+      >
+        <h2 class="team_text">Наша команда</h2>
+        <ul class="members">
+          <li class="team-card">
+            <div class="block">
+              <img class="img" src="./img/img4.jpg" alt="Igor" />
+            </div>
+            <h3 class="member">Ігор Дем'яненко</h3>
+            <h4 class="role">Product Designer</h4>
+            <ul class="social_media">
+              <li>
+                <a href="https://www.instagram.com/">
+                  <img
+                    class="social_media1"
+                    src="./icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=uk">
+                  <img
+                    class="social_media2"
+                    src="./icons/Twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <img
+                    class="social_media3"
+                    src="./icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <img
+                    class="social_media4"
+                    src="./icons/linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <div class="block">
+              <img class="img" src="./img/img5.jpg" alt="Olga" />
+            </div>
+            <h3 class="member">Ольга Рєпіна</h3>
+            <h4 class="role">Frontend Developer</h4>
+            <ul class="social_media">
+              <li>
+                <a href="https://www.instagram.com/">
+                  <img
+                    class="social_media1"
+                    src="./icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=uk">
+                  <img
+                    class="social_media2"
+                    src="./icons/Twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <img
+                    class="social_media3"
+                    src="./icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <img
+                    class="social_media4"
+                    src="./icons/linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <div class="block">
+              <img class="img" src="./img/img6.jpg" alt="Mykola" />
+            </div>
+            <h3 class="member">Микола Тарасов</h3>
+            <h4 class="role">Marketing</h4>
+            <ul class="social_media">
+              <li>
+                <a href="https://www.instagram.com/">
+                  <img
+                    class="social_media1"
+                    src="./icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=uk">
+                  <img
+                    class="social_media2"
+                    src="./icons/Twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <img
+                    class="social_media3"
+                    src="./icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <img
+                    class="social_media4"
+                    src="./icons/linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <div class="block">
+              <img class="img" src="./img/img7.jpg" alt="Misha" />
+            </div>
+            <h3 class="member">Михайло Єрмаков</h3>
+            <h4 class="role">UI Designer</h4>
+            <ul class="social_media">
+              <li>
+                <a href="https://www.instagram.com/">
+                  <img
+                    class="social_media1"
+                    src="./icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=uk">
+                  <img
+                    class="social_media2"
+                    src="./icons/Twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <img
+                    class="social_media3"
+                    src="./icons/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <img
+                    class="social_media4"
+                    src="./icons/linkedin.svg"
+                    alt="linkedin"
+                  />
+                </a>
+              </li>
+            </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="loc">
+            <h2 class="logo2"><span>Web</span>Studio</h2>
+          </li>
+          <li class="loc">
+            <a
+              href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4283372,30.5358967,17z/data=!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?authuser"
+            >
+              м. Київ, пр-т Лесі Українки, 26
+            </a>
+          </li>
+          <li class="loc2">
+            <a href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="loc2">
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/wow.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
