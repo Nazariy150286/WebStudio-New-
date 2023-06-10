@@ -363,6 +363,7 @@ hr {
   margin-right: 32px;
   margin-left: 32px;
   margin-bottom: 30px;
+  padding: 0;
 }
 .social_media1 {
   margin: 0px;
@@ -391,9 +392,23 @@ margin-left: 100px;
 }
 .social_media {
 list-style-type: none;
+
 }
 .header-link a{
 display: flex;
 align-items: center;
 
 }
+.social_media a {
+  background: #FFFFFF;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media a:hover{
+  background: #2196F3;
+}
+
