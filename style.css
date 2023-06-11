@@ -375,8 +375,8 @@ hr {
   margin-right: 10px;
 }
 .header-link:hover,
-.header-link a svg path:hover{
-  background: rgb(0, 0,0,0.5);
+.header-link a svg path:hover {
+  background: rgb(0, 0, 0, 0.5);
   opacity: 1;
   fill: #ffffff;
 }
@@ -408,9 +408,91 @@ hr {
   justify-content: center;
   align-items: center;
 }
-svg path:hover {
+.social_media svg path:hover {
   fill: #ffffff;
 }
 .social_media a:hover {
   background: #2196f3;
+}
+.everyday_clients h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+.everyday_clients li {
+  list-style-type: none;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 94px;
+}
+
+.everyday_clients ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.everyday_clients a {
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.everyday_clients li:hover {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 30px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+.everyday_clients a:hover,
+.everyday_clients path:hover {
+  fill: #2196f3;
+}
+.aboutsm {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.social_media2 a {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media2 svg path:hover {
+  fill: #ffffff;
+}
+.social_media2 a:hover {
+  background: #2196f3;
+}
+.social_media2 {
+  list-style-type: none;
+}
+.aboutsm h4 {
+  margin-top: 72px;
+  margin-bottom: 164px;
+  margin-left: 516px;
+  margin-right: 968px;
 }
