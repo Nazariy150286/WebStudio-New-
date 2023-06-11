@@ -374,33 +374,33 @@ hr {
 .header-link svg {
   margin-right: 10px;
 }
-.header-link a:hover path{
-fill: #2196f3;
+.header-link:hover,
+.header-link a svg path:hover{
+  background: rgb(0, 0,0,0.5);
+  opacity: 1;
+  fill: #ffffff;
 }
-.abbout{
-  background: #F5F4FA;
+.abbout {
+  background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  
 }
-.abbout img{
-margin-top:25px;
-margin-bottom: 25px;
-margin-right: 100px;
-margin-left: 100px;
+.abbout svg {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 .social_media {
-list-style-type: none;
-
+  list-style-type: none;
 }
-.header-link a{
-display: flex;
-align-items: center;
-
+.header-link a {
+  display: flex;
+  align-items: center;
 }
 .social_media a {
-  background: #FFFFFF;
+  background: #ffffff;
   width: 44px;
   height: 44px;
   border-radius: 100%;
@@ -408,7 +408,9 @@ align-items: center;
   justify-content: center;
   align-items: center;
 }
-.social_media a:hover{
-  background: #2196F3;
+svg path:hover {
+  fill: #ffffff;
 }
-
+.social_media a:hover {
+  background: #2196f3;
+}
